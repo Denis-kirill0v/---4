@@ -16,6 +16,7 @@ def save_books(books):
     with open(STORAGE_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
+":)"
 def add_book(books, new_book):
     # Проверка на дубликаты
     for book in books:
