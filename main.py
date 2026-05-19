@@ -1,5 +1,6 @@
 from storage import load_books, save_books, add_book, delete_book
 from stats import average_rating, author_stats
+from models import Book
 
 def show_menu():
     print("\n=== Трекер прочитанных книг ===")
